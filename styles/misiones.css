@@ -1,0 +1,33 @@
+.subtitulo{
+    margin: 15px;
+    padding: 0;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid gray;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    background-color: rgb(210, 207, 207);
+}
+
+th{
+    text-align: left;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: rgb(97, 96, 96);
+}
+
+td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color: rgb(113, 112, 119);
+}
